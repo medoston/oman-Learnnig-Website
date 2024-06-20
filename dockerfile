@@ -2,12 +2,12 @@
 FROM nginx:alpine
 
 # Set the working directory to /usr/share/nginx/html
-#  WORKDIR /usr/share/nginx/html
+#  RUN cd /usr/share/nginx/html
 
 
 
-RUN apt-get update
-RUN apt-get install git
+#RUN apt-get update
+RUN apk add git
 
 
 # Clone the static website from GitHub
