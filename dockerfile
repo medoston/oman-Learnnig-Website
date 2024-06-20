@@ -6,8 +6,8 @@ FROM nginx:alpine
 
 
 
-RUN apt-get update
-RUN apt-get install git
+#RUN apt-get update
+RUN apk add git
 
 
 # Clone the static website from GitHub
