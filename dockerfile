@@ -6,7 +6,7 @@ FROM nginx:alpine
 
 
 
-#RUN apt-get update
+RUN apk update
 RUN apk add git
 
 
