@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Set the working directory to /usr/share/nginx/html
-#  WORKDIR /usr/share/nginx/html
+#  RUN cd /usr/share/nginx/html
 
 
 
