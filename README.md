@@ -1,6 +1,6 @@
-# AWS Secure and powerful architecture for Static Website
+# AWS Secure and powerful architecture for a Static Website
 
-Use this solution to create a secure static website for your registered domain name. With this solution, your website:
+Use this solution to create a secure static website for a registered domain name. With this solution, The website:
 
 - Is Deployed as a docer container 
 - Is hosted on [Amazon EC2](https://aws.amazon.com/ec2/)
@@ -8,7 +8,7 @@ Use this solution to create a secure static website for your registered domain n
 - Uses an SSL/TLS certificate from [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/)
 - Uses [CloudFront Response Header Policies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/adding-response-headers.html) to add security headers to every server response
 
-For more information about each of these components, see the **Solution details** section on this page.
+The architecture for this project is shown below:
 
 ![Architecture](assets/img/image_2024-09-19_064700960.png)
 
