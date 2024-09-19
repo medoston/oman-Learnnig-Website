@@ -9,7 +9,7 @@ Use this solution to create a secure static website for your registered domain n
 
 For more information about each of these components, see the **Solution details** section on this page.
 
-![Architecture](.assets/img/image_2024-09-19_064700960.png)
+![Architecture](assets/img/image_2024-09-19_064700960.png)
 
 1. The viewer requests the website at www.example.com.
 2. If the requested object is cached, CloudFront returns the object from its cache to the viewer.
