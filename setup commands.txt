@@ -7,7 +7,7 @@ docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi --force
 
 docker system prune -a -y
 
-apt-apt update
+apt-get update
 
 
 
