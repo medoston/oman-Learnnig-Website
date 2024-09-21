@@ -1,0 +1,11 @@
+#!/bin/sh
+cd oman-Learnnig-Website/
+
+docker build -t oman . 
+
+docker run -d -p 80:80 --name OM oman
+
+
+cd ..
+
+rm -r oman-Learnnig-Website
