@@ -85,6 +85,18 @@
   box-sizing: border-box;
 }
 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 10px; /* Space between columns */
+}
+
+.section {
+  text-align: center; /* Center text within each section */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -10874,7 +10886,7 @@ html {
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 15rem;
+  max-width: 20rem;
   height: 0.25rem;
   background-color: #2c3e50;
   border-radius: 1rem;
