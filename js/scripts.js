@@ -7,6 +7,21 @@
 // Scripts
 // 
 
+// TO # THE SECTION ON THE URL -----------------------
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the modal ID from the URL hash
+    const modalId = window.location.hash;
+
+    // Check if the hash corresponds to a modal ID
+    if (modalId && modalId.startsWith("#portfolioModal")) {
+      // Use Bootstrap's modal API to show the modal
+      const modal = new bootstrap.Modal(document.querySelector(modalId));
+      modal.show();
+    }
+});
+// ------------------------------------
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
