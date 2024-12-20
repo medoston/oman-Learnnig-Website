@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const modalId = window.location.hash;
 
     // Check if the hash corresponds to a modal ID
-    if (modalId && modalId.startsWith("#portfolioModal")) {
+    if (modalId && modalId.startsWith("#Exam")) {
       // Use Bootstrap's modal API to show the modal
       const modal = new bootstrap.Modal(document.querySelector(modalId));
       modal.show();
